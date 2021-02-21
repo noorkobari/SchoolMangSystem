@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no" />
+		<title>School Managment System</title>
+        <link rel="stylesheet" href="src/style.css">
+	</head>
+
+	<body>
+        <div id="Table" style="overflow-x:auto;">
+            <th style="width: 10%; color:white">Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th style="width: 10%; color:white"> ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </th>
+            <th style="width: 10%; color: white;">GDPA</th>
+        
+
+            </div>
+           <div class ="form-group col-xs-12 col-sm-6">
+		<div class="container " >
+			<form>
+				<!-- student name -->
+
+				<div class="from-control"> 
+                     <div class="row">
+                    <div class="col-25">
+					<label for="name">Student Name</label>
+                </div>
+                    <div class="col-75">
+					<input type="text" id="name" placeholder="Noor" />
+                    </div>
+                
+				</div>
+                  </div>
+				<!-- student name -->
+
+				<!-- student id -->
+				<div class="from-control">
+                    <div class="row">
+                        <div class="col-25">
+					<label for="idNumber">Student ID</label></div>
+                    <div class="col-75">
+					<input type="number" id="idNumber" placeholder="411420876" />
+				</div>
+                </div>
+				<!-- student id -->
+
+				<!-- student gdpa -->
+				<div class="from-control">
+                    <div class="row">
+                        <div class="col-25">
+					<label for="gdpa">Student GDPA</label></div>
+                    <div class="col-75">
+					<input type="number" id="gdpa" placeholder="3.50" />
+                    </div>
+				</div><br><br>
+				<!-- student gdpa -->
+
+                <div class="row">
+				<button onclick="display_array" id="submit" type="submit">Add</button>
+                <button onclick="UpdateStu" id="update" type="submit">Update</button>
+                </div>
+
+                
+                
+               </form>
+		</div>
+        </div>
+
+        
+
+		<script src="./src/main.js"></script>
+	</body>
+</html>

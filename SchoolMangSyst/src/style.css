@@ -1,0 +1,81 @@
+
+    input[type=text],[type=number]{
+        border-radius:4px;
+        background-color:#fff;
+        color:black;
+        padding: 16px 20px;
+        border: none;
+        width: 40%;
+        margin-bottom:10px;
+        font-size :15px;
+        
+
+    }
+
+    .from-control label{
+        color:white;
+        padding: 16px 20px;
+        margin-bottom:10px;
+        font-size :18px;
+        font-family:  'Libre Baskerville';
+        display: inline-block;
+        
+    }
+
+    form{
+        text-align: center;
+        border:none;
+        border-radius:7px;
+        background: linear-gradient(to bottom, rgba(146, 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+        width: 500px;
+        position: relative;
+        padding-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+        
+   
+    }
+    
+    
+    .container button{
+        border-radius:20px;
+        background-color:darkgray;
+        color:black;
+        padding: 16px 20px;
+        border: none;
+        width:140px;
+        margin-bottom:10px;
+        font-size :18px;
+
+    }
+   
+
+   body{
+        background-image: url('najah.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed;
+        background-position-x: 50%;
+        width: auto;
+        height:auto;
+
+        
+    }
+
+    #Table{
+       background: linear-gradient(to bottom, rgba(146, 135, 187, 0.8) 0%, rgba(65, 64, 64, 0.6) 100%);
+      /* text-align: center; */
+       border-radius: 4px;
+       width: 25%;
+       padding-left: 15px;;
+       font-size: 20px;
+       position: absolute;
+
+    }
+    
+    
+   
+ 
+    
